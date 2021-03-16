@@ -78,21 +78,11 @@ section {
 article {
     float: left;
     margin: 30px;
+    width: 400px;
+    text-align: center;
 }
 img {
     width: 200px;   
-}
-.article1{
-    width: 400px;
-    text-align: center;
-}
-.article2{
-    width: 400px;
-    text-align: center;
-}
-.article3{
-    width: 400px;
-    text-align: center;
 }
 .clearfix::before, .clearfix::after {
     content: "";
