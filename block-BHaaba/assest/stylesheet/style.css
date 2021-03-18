@@ -1,0 +1,117 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+ 
+/* header */
+.header {
+    background-color: midnightblue;
+    height: 150px;
+    line-height: 150px;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.brand img {
+    width: 200px;
+    float: left;
+}
+.nav {
+    float: right;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+ /* main */
+ main {
+    background-color: #e9ecfc;
+ }
+section {
+    width: 1400px;
+    margin: 0 auto;
+}
+article {
+    float: left;
+    margin: 30px;
+    width: 400px;
+    text-align: center;
+}
+img {
+    width: 200px;   
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+/* footer */
+footer {
+    background-color: midnightblue;
+    height: 50px;
+}
+.foot {
+    width: 1400px;
+    padding: 12px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+small {
+    color: white;
+}
+.foot a {
+    text-decoration: none;
+    color: white;
+}
